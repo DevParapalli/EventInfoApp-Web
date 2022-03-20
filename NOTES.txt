@@ -1,0 +1,14 @@
+# Use Lofi UI 
+https://codepen.io/robstinson/pen/pobJaKa as dashboard layout
+https://github.com/tailwindadmin/admin for more components
+https://www.hyperui.dev/ as components
+https://cruip.com/ more tailwind css thingies Obfuscated obvs
+https://github.com/mailpace/templates for mail templates in tailwindcss
+https://windmill-dashboard.vercel.app/ more components
+https://redpixelthemes.com/ theme ???
+https://fancytailwind.com/browse-components components ???
+https://mambaui.com/components 
+https://flowrift.com/c/banner
+https://flowbite.com/docs/getting-started/introduction/
+https://www.vechaiui.com/
+https://github.com/juliomrqz/statusfy
