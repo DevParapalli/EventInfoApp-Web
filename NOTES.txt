@@ -12,3 +12,27 @@ https://flowrift.com/c/banner
 https://flowbite.com/docs/getting-started/introduction/
 https://www.vechaiui.com/
 https://github.com/juliomrqz/statusfy
+
+Firebase as Backend for Auth, 
+Firestore for Data, 
+RTDB for Live updates for events (onDocAdd thing ?), 
+
+onAuthStateChanged -> Needs ideas on how to handle
+What about ProactiveRefresh ? 
+    Create a AuthComponent, that takes care of init, updates a store. 4 params
+        user ? : json object with uid
+        isFirebaseControlled : bool set when FirebaseAuth is initlized.
+        isLoggedIn : bool set when FirebaseAuth init and user is logged in
+        xxxx : TBD
+    Protected Pages wait for isFirebaseControlled to be true and isLoggedIn to be false, once that happens, we redirect to login else we 
+
+ // Do we create a Auth Component that gives us access to the User ?
+
+Considering this, do we create components for the FirebaseApp, Firestore, RTDB seperately ?
+Also How do we subscribe to the RTDB ? 
+    Do we use stores ? aka we setup the onValue thing on the page and then have it update a store, the store is used to generate the HTML
+    We have to use a stack for this, Stores would be the ideal solution. 
+    Slotted Components ? with the let directive https://svelte.dev/tutorial/slot-props # This seems like a good method
+    Use setContext and getContext ? https://svelte.dev/tutorial/context-api
+
+
